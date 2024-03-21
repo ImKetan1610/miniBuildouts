@@ -1,0 +1,39 @@
+body {
+  background-image: url("../assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile-box {
+  background-color: #ff574a;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  padding: 40px 90px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 20%;
+  margin: auto;
+  margin-top: 10%;
+}
+.menu-icon,
+.setting-icon {
+  width: 25px;
+  height: 25px;
+}
+.profile-pic {
+  /* The profile picture’s width must be 150px and must have a padding of 6px. */
+  width: 150px;
+  padding: 6px;
+  /* The profile picture must be perfectly round. (Hint: Use border radius as 50%). */
+  border-radius: 50%;
+}
+
+.social-media img {
+  cursor: pointer;
+  width: 20px;
+}
+
+/* .social-media img:hover {
+  cursor: pointer;
+} */
